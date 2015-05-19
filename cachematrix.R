@@ -30,9 +30,6 @@ s <- NULL
 #     b) Compute the inverse of the matrix ( s<-solve(data,...) )
 #     c) Assign a value to s               ( x$setsolve(s) )
 
-data gets the vector stored with makeVector,
-m calculates the mean of the vector and x$setmean(m) stores it in the object generated assigned with makeVector
-
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         s <- x$getsolve()
